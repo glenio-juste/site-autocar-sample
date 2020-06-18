@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.cabecalho{
+	padding: 10px 0;
+	text-align: center;
+}
+
+.chamada{
+	background-color: red;
+	padding: 50px 15px;
+}
+
+.chamada h1{
+	margin: 0;
+	color: #fff;
+	font-size: 20px;;
+	text-align: center;
+}
+
+.automoveis{
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.automoveis article{
+	margin: 30px 0;
+}
+
+.automoveis article img{
+	max-width: 100%;
+	
+	
+}
+
+.automoveis article h2{
+	font-size: 20px;
+	color: #686868;
+	margin-bottom: 25px;
+}
+
+.automoveis .botao{
+	padding: 10px 15px;
+	background-color: chartreuse;
+	color: #fff;
+	text-decoration: none;
+}
+
+@media (min-width: 480px){
+	.chamada{
+		padding: 60px 15px;
+	}
+	
+	.chamada h1{
+		font-size: 54px;
+	}
+	
+	.automoveis article{
+		float: left;
+		width: calc(50% - 10px);		
+	}
+	
+	.automoveis article: nth-child(even){
+		margin-left: 10px;
+	}
+	
+	
+}

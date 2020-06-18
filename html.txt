@@ -1,0 +1,34 @@
+<!-- main -> principal / article -> pedaço de conteúdo independete -->
+
+padding: 10px 0; espaçamento interno --> esquerdo/direito 10px
+                                     --> em cima/ em baixo 0
+
+margin-bottom: 25px; margem inferior 25px;
+
+@media (min-width: 540px){ dentro dessa expressão verdadeira, vai entrar nesse bloco
+
+.automoveis article{
+		float: left;
+		width: 50%; --> dividir a tela em 50%
+		padding: 20px; assim, não fica 50% pq dará 90% para cada img
+	}
+por isso usar --> width: calc(50% - 20px);
+
+avançado
+.automoveis article: nth-child(even) --> pseud classes que seleciona apenas os pares
+
+
+.automoveis{
+	max-width: 1100px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0 15px;
+}
+
+para monitores de tela muito grande
+max-width: 1100px;
+margin: 0 auto;
+--> centraliza em monitores muito grande
+
+meta name="viewport"  (viewport = área útil dentro do navegador)
+content="width=device-width --> largura do dispositivo
