@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.teste{
+    color: black;
+}
+
+.layout{
+    margin: 30px;
+}
+
+.layout{
+    text-align: center;
+}
+
+.layout p{
+    text-align: justify;
+}
+
+.foto{    
+    text-align: center;
+}

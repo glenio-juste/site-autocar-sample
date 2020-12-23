@@ -32,3 +32,6 @@ margin: 0 auto;
 
 meta name="viewport"  (viewport = área útil dentro do navegador)
 content="width=device-width --> largura do dispositivo
+
+<!-- encurtador de link -->
+<!-- https://cutt.ly/2hcpqLa -->

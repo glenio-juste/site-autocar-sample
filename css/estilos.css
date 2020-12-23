@@ -33,9 +33,7 @@ body{
 }
 
 .automoveis article img{
-	max-width: 100%;
-	
-	
+	max-width: 100%;	
 }
 
 .automoveis article h2{
@@ -51,7 +49,18 @@ body{
 	text-decoration: none;
 }
 
-@media (min-width: 480px){
+.rodape {
+    padding: 10px;
+    background-color: #2e2e2e;
+    color: aliceblue;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+
+@media (min-width: 768px){
+
+
 	.chamada{
 		padding: 60px 15px;
 	}
@@ -68,6 +77,5 @@ body{
 	.automoveis article: nth-child(even){
 		margin-left: 10px;
 	}
-	
 	
 }
